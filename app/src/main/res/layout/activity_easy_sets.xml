@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/ba5958da1e57b955be0e8c198401b1d8">
+
+    <Button
+        android:id="@+id/easyset2"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="158dp"
+        android:textColor="#D5DBDB"
+        android:textStyle="bold"
+        android:layout_marginTop="178dp"
+        android:textSize="25sp"
+        android:text="SET-2" />
+
+    <Button
+        android:id="@+id/easyset3"
+        android:textSize="25sp"
+        android:textColor="#D5DBDB"
+        android:textStyle="bold"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/easyset2"
+        android:layout_below="@+id/easyset2"
+        android:layout_marginTop="34dp"
+        android:text="SET-3" />
+
+    <Button
+        android:id="@+id/easyset1"
+        android:textColor="#D5DBDB"
+        android:textStyle="bold"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/easyset3"
+        android:layout_alignStart="@+id/easyset2"
+        android:layout_marginBottom="76dp"
+        android:textSize="25sp"
+        android:text="SET-1" />
+
+    <Button
+        android:id="@+id/easyset4"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:textColor="#D5DBDB"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/easyset3"
+        android:layout_below="@+id/easyset3"
+        android:textSize="25sp"
+        android:layout_marginTop="37dp"
+        android:text="SET-4" />
+</RelativeLayout>

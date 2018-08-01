@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:hapticFeedbackEnabled="true"
+    android:background="@drawable/ba5958da1e57b955be0e8c198401b1d8"
+    >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/logo1" />
+
+    <ImageView
+        android:id="@+id/cir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/x1"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="70dp"
+         />
+
+
+    <EditText
+        android:id="@+id/y1"
+        style="@android:style/Widget.Material.Light.EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_marginEnd="42dp"
+        android:layout_toStartOf="@+id/next1"
+        android:hint="Enter Y"
+        android:textColor="#EEEEEE"
+        android:textColorHint="#EEEEEE"
+        android:textSize="22sp" />
+
+
+    <TextView
+        android:id="@+id/textView8"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="17dp"
+        android:layout_marginEnd="27dp"
+        android:layout_toStartOf="@+id/y1"
+        android:text="Y"
+        android:textColor="#EEEEEE"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/next1"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView8"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:text="NEXT"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

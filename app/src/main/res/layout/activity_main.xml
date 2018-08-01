@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.calculator.kanis.logiccrackers.MainActivity"
+    android:background="@drawable/ba5958da1e57b955be0e8c198401b1d8"
+    android:orientation="vertical">
+<ListView
+    android:layout_width="255sp"
+    android:layout_height="355sp"
+    android:layout_gravity="center"
+    android:layout_marginTop="105sp"
+    android:id="@+id/list">
+</ListView>
+
+
+</LinearLayout>
